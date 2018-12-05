@@ -10,7 +10,7 @@ message.channel.sendMessage(' ```Botun yeniden başlatılmasına onay veriyorsan
     errors: ['time'],
   })
   .then((collected) => {
-      message.channel.sendMessage(`**Bot yeniden başlatılıyor...**`).then(message => {
+      message.channel.sendMessage(`**2.panel Bot yeniden başlatılıyor...**`).then(message => {
       console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] Bot yeniden başlatılıyor...`)
       process.exit(1);
     }).catch(console.error)
